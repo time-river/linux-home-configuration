@@ -26,6 +26,13 @@ set encoding=utf-8           "enc是VIM的内部编码表示方式，默认为lo
 set fileencoding =utf-8      "fenc设置为当前缓冲区内的文件的文本编码
 set fileencodings=utf-8,ucs-bom,gb18030,big5,gbk,,cp936,gb2312,shift-jis    "简写为fencs，fencs是vim确定fenc的值的来源之一
 
+"======制表符策略======"
+set expandtab                "用空格代替制表符 noexpantab不用空格代替
+set smarttab                 "在行首按TAB使用shiftwidth个空格，否则加入tabstop个空格
+set tabstop=4            "Tab键的宽度
+set softtabstop=4        "统一缩进为4
+set shiftwidth=4         "使用每层缩进的空格数
+
 "======语言设置======"
 set helplang=cn,en           "使用中文帮助,英文次之 
 "language name               "当前的语言设置称name
