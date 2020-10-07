@@ -1,0 +1,39 @@
+[submodule "VundleVim/Vundle.vim"]
+    path = .vim/bundle/Vundle.vim
+    url = https://github.com/VundleVim/Vundle.vim.git
+
+[submodule "vim-airline/vim-airline"]
+    path = .vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline.git
+
+[submodule "vim-airline/vim-airline-themes"]
+    path = .vim/bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+
+[submodule "preservim/nerdtree"]
+    path = .vim/bundle/nerdtree
+	url = https://github.com/preservim/nerdtree.git
+
+[submodule "preservim/tagbar"]
+    path = .vim/bundle/tagbar
+	url = https://github.com/preservim/tagbar.git
+
+[submodule "vim-scripts/LargeFile"]
+    path = .vim/bundle/LargeFile
+	url = https://github.com/vim-scripts/LargeFile.git
+
+[submodule "ludovicchabant/vim-gutentags"]
+    path = .vim/bundle/vim-gutentags
+	url = https://github.com/ludovicchabant/vim-gutentags.git
+
+[submodule "skywind3000/gutentags_plus"]
+    path = .vim/bundle/gutentags_plus
+	url = https://github.com/skywind3000/gutentags_plus.git
+
+[submodule "vivien/vim-linux-coding-style"]
+    path = .vim/bundle/vim-linux-coding-style
+	url = https://github.com/vivien/vim-linux-coding-style.git
+
+[submodule "Yggdroot/LeaderF"]
+	path = .vim/bundle/LeaderF
+    url = https://github.com/Yggdroot/LeaderF.git
