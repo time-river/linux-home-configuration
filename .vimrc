@@ -1,24 +1,29 @@
 set nocompatible              " be iMproved, required
-filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" Specify a directory for plugins
+" - For Neovim: stdpath('data') . '/plugged'
+" - Avoid using standard Vim directory names like 'plugin'
+call plug#begin('~/.vim/plugged')
 
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'preservim/nerdtree'
-Plugin 'preservim/tagbar'
-"Plugin 'Yggdroot/LeaderF'
-"Plugin 'ronakg/quickr-cscope.vim'
-Plugin 'vim-scripts/LargeFile'
-Plugin 'ludovicchabant/vim-gutentags'
-Plugin 'skywind3000/gutentags_plus'
+Plug 'VundleVim/Vundle.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'preservim/nerdtree'
+Plug 'preservim/tagbar'
+"Plug 'Yggdroot/LeaderF'
+"Plug 'ronakg/quickr-cscope.vim'
+Plug 'vim-scripts/LargeFile'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'skywind3000/gutentags_plus'
 
-Plugin 'vivien/vim-linux-coding-style'
+Plug 'vivien/vim-linux-coding-style'
 
-call vundle#end()            " required
-filetype plugin indent on    " required
+" Initialize plugin system
+call plug#end()
+
+" Automatically executes by vim-plug
+"filetype plugin indent on
+"syntax enable
 
 "======编码设置======"
 set termencoding=utf-8       "tenc是用于告知VIM说终端是使用何种文本编码方式来作文本输入和显示，默认enc
@@ -46,8 +51,6 @@ filetype plugin on           "为特定的文件类型允许插件文件的载�
 filetype indent on     "为特定的文件类型载入缩进文件
 
 set backspace=indent,eol,start "https://vi.stackexchange.com/questions/2162/why-doesnt-the-backspace-key-work-in-insert-mode
-
-syntax on
 
 let mapleader = '\'
 
