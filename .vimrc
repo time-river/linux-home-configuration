@@ -86,7 +86,7 @@ if !isdirectory(s:vim_tags)
     silent! call mkdir(s:vim_tags, 'p')
 endif
 
-nnoremap <C-]> <C-w>]
+"nnoremap <C-]> <C-w>]
 
 " airline
 let g:airline#extensions#tabline#enabled = 1
