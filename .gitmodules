@@ -33,3 +33,7 @@
 [submodule "Yggdroot/LeaderF"]
 	path = .vim/plugged/LeaderF
     url = https://github.com/Yggdroot/LeaderF.git
+
+[submodule "neoclide/coc.nvim"]
+    path = .vim/plugged/coc.nvim
+    url = https://github.com/neoclide/coc.nvim.git
