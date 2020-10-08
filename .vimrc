@@ -16,6 +16,8 @@ Plug 'vim-scripts/LargeFile'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'skywind3000/gutentags_plus'
 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'vivien/vim-linux-coding-style'
 
 " Initialize plugin system
